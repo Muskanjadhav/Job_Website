@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--Swiper-->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" -->
-     <!-- custom css-->
+/>
+    <!-- custom css-->
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive Job Portal Website</title>
 </head>
@@ -385,26 +385,20 @@
 
     <!--contact section design-->
     <section class="contact" id="contact">
-		<div class = "frame">
-    <div id = "button_open_envelope">Contact me</div>
-			<div class = "message">
-				<form method="post" action="contact.php">
-					<input type="text" name="name" id="name" placeholder=" Name* " required>
-			
-					<input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
-				
-					<input type="text" name="phone" id="phone" placeholder=" Phone (optional)" autofocus> 
-				
-					<textarea name="message" id="messarea" placeholder=" Message* " required></textarea>
-			
-					<input type="text" name="address" id="address" style="display: none;">
-					<input type="submit" value="Send" id="send">
-				</form>
-			</div>
-			<div class = "bottom"></div>			
-			<div class = "left"></div>
-			<div class = "right"></div>
-			<div class = "top"></div>   
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
     </section>
 
     <!--footer design-->
@@ -421,6 +415,6 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.css"></script>
-    <script src="js/app.js"></script>
+    <script src="app.js"></script>
 </body> 
 </html>
